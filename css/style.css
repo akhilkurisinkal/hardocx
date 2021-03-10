@@ -1,0 +1,284 @@
+
+body{
+    
+}
+.radios input[type=radio] {
+    display:none
+}
+.tem{
+    padding-top:5%;
+    padding-bottom: 20%;
+}
+.radios .radio {
+    
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    border-style: solid;
+    width:80px;
+    height:80px;
+}
+
+.radios input[type=radio] {
+    display: none;
+}
+
+.radios input[type=radio]:checked + .radio {
+    background-color: #0275d8;
+    border-style: solid;
+    border-color: blue;
+}
+.ha{
+    color:#0275d8;
+    font-size: 22px;
+}
+#ak{
+    background-image: url(PinClipart.com_hand-wave-clipart_523772.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+    
+}
+.container{
+    background-color: #e0e0e0;
+}
+.navbar-static-top{
+    padding-left:20%;
+    padding-right:20%;
+    margin-bottom:0px;
+
+}
+.navbar-brand{
+    font-family: 'Righteous';
+    font-size:40px;
+    
+}
+li{
+    text-align:center;
+    font-family: 'Patua One';
+    font-size:16px;
+}
+.main{
+        padding-bottom:%;
+        width:100%;
+        padding-left:20%;
+        padding-right:20%;
+}
+
+.moto{
+    background-image:url("hiclipart.com-id_itjtg.png");
+    padding-top:10%;
+    padding-bottom:0px;
+    font-size:40px;
+    font-family: 'Righteous';
+    
+   
+}
+.login{
+    padding-top:5%;
+    text-align: center;
+    font-family:"Roboto";
+    font-size: 20px;
+    font-family: 'Patua One';
+    float:right;
+    
+}
+
+.head{
+    font-size:30px;
+    font-family: ;
+}
+input[type=text],input[type=password] {
+    width: 100%;
+    height:40px;
+    text-align:center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius:5px;
+    font-family:Arvo;
+}
+
+
+
+
+.fa{
+    padding-left:15%;
+}
+.sub{
+    font-size:16px;
+    font-family: ;
+}
+
+#info {
+    display: block;
+    
+    margin: 0px auto;
+    margin-left:0%;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    color: #222;
+    background: #fff;
+    }
+.error{
+    color:red;
+    font-family:Arvo;
+    font-size:12px;
+
+}
+select{
+    width: 50%;
+}
+
+#sucess{
+    color:green;
+}
+
+input.er::placeholder {
+    color: red;
+ }
+.verify{
+    
+    padding-top:7%;
+    padding-bottom:6%;
+    width:100%;
+    padding-left:20%;
+    padding-right:20%;
+    text-align:center;
+    font-family:Arvo;
+    margin-bottom:3%;
+   
+}
+.logmain{
+    padding-bottom:6%;
+    width:100%;
+    padding-left:20%;
+    padding-right:20%;
+}
+ .sreg{
+    padding-bottom:; 
+    width:100%;
+    padding-left:20%;
+    padding-right:20%;
+ }
+ .welcome{
+    text-align:center;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom:10%;
+    margin-bottom:2%;"
+ }
+
+ .log{
+     width:35%;height:35%;
+ }
+@media screen and (max-width: 900px) 
+{
+    .navbar-static-top{
+        padding-left:0px;
+        padding-right:0px;
+        margin-bottom:0px;
+        margin:0px;
+    
+    }
+    .main{
+        padding-bottom:5%;
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+      
+        
+        
+}
+.welcome{
+    text-align:left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.login{
+    padding-top:5%;
+    text-align: center;
+    font-family:"Roboto";
+    font-size: 20px;
+    font-family: 'Patua One';
+    float:none;
+   
+    
+}
+
+.moto{
+    padding-bottom:0px;
+    display: ;
+    font-size:30px;
+    background-color: transparent;
+    background-image: url("images\hiclipart.com-id_icggr.png");
+ 
+}
+.mn{
+    display: none;
+}
+
+.verify{
+    text-align:center;
+    padding:0px;
+}
+.logmain{
+    padding-bottom:6%;
+    width:100%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:7%;
+}
+.sreg{
+    padding-bottom:0px; 
+    width:100%;
+    padding-left:5%;
+    padding-right:5%;
+    text-align:center;
+ }
+
+.log{
+    width:35%;
+    height:35%;
+}
+    
+}
+
+@media screen and (max-width: 1300px) 
+{
+    .sreg{
+        padding-bottom:; 
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+        text-align:center;
+     }
+     .navbar-static-top{
+        padding-left:5%;
+        padding-right:5%;
+        margin-bottom:0px;
+    
+    }
+
+    .main{
+        padding-bottom:5%;
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+    }
+    .logmain{
+        padding-bottom:6%;
+        width:100%;
+        padding-left:5%;
+        padding-right:5%;
+        padding-top:7%;
+    } 
+    
+
+}
